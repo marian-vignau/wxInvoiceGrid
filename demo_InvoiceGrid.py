@@ -102,7 +102,7 @@ def ValidateRow(row_data):
         field,msg='price','Must enter a price'
     if not msg is None:
         dlg = wx.MessageDialog(None, msg,
-                               'Rrror validating the row',
+                               'Error validating the row',
                                wx.OK | wx.ICON_ERROR
                                #wx.YES_NO | wx.NO_DEFAULT | wx.CANCEL | wx.ICON_INFORMATION
                                )
